@@ -1,0 +1,19 @@
+{
+  "name": "jedenweb/headers",
+  "description": "HTTP headers configuration via neon backport to Nette 2.1",
+  "license": ["BSD-3-Clause", "GPL-2.0", "GPL-3.0"],
+  "authors": [
+    {
+      "name": "Pavel Jurásek"
+    }
+  ],
+  "autoload": {
+    "classmap": ["src/"]
+  },
+  "require": {
+    "nette/nette": "~2.1.0"
+  },
+  "require-dev": {
+    "nette/tester": "~1.7.1"
+  }
+}
